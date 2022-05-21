@@ -1,0 +1,23 @@
+{
+	"name": "@cmcm/browserslist-config",
+	"version": "1.0.0-alpha.1",
+	"description": "Browserslist config for daily development.",
+	"main": "index.js",
+	"scripts": {
+		"postpublish": "npx npm-mirror-sync",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": "cssmagic/browserslist-config",
+	"keywords": [
+		"browserslist"
+	],
+	"author": "cssmagic <cssmagic.cn@gmail.com>",
+	"license": "MIT",
+	"files": [
+		"*.js",
+		"preset/**/*.js"
+	],
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/"
+	}
+}
