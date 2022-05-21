@@ -38,7 +38,7 @@ extends @cmcm/browserslist-config
 ---|:---:|---
 `/preset/mobile` | 移动端 |
 `/preset/desktop` | 桌面端 |
-`/index` 或省略<br>（默认入口） | 双平台 | 实际上就是以上两者之和
+`/index` 或省略（默认入口） | 双平台 | 实际上就是以上两者之和
 
 在 `extends` 的时候指定入口文件即可。比如：
 

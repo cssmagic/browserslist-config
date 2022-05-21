@@ -1,1 +1,11 @@
-module.exports = require('./preset/mobile')
+'use strict'
+
+const mobile = require('./preset/mobile')
+const desktop = require('./preset/desktop')
+
+const both = [
+	...mobile,
+	...desktop,
+]
+
+module.exports = both
